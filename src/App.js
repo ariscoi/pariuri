@@ -7,7 +7,7 @@ import logo from './logo.png';
 import JocResponsabil from './JocResponsabil';
 function App() {
   return (
-    <Router>
+    <Router basename="/pariuri">
       <div className="App">
       
       <div className="menu">
