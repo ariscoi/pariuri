@@ -1,0 +1,75 @@
+/* Ponturi.css */
+
+/* Fundal și font */
+.ponturi-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom right, #141e30, #243b55);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.ponturi-header {
+  padding: 40px 20px 40px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.ponturi-header h1 {
+  font-size: 3rem;
+  color: #00ffff;
+}
+
+.ponturi-header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Lista ponturi */
+.ponturi-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Card individual */
+.ponturi-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 5px solid #ffd700;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+}
+
+.ponturi-card h3 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.ponturi-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.cota {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* Footer */
+.ponturi-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #ccc;
+  border-top: 1px solid #444;
+  margin-top: auto;
+}

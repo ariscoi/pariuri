@@ -1,0 +1,97 @@
+/* Fundal general și font */
+.joc-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom right, #141e30, #243b55);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.joc-header {
+  padding: 40px 20px 40px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.joc-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #00ffff;
+}
+
+.joc-header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Secțiuni */
+.joc-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.joc-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.joc-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+/* Carduri recomandări */
+.joc-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.joc-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 5px solid #00ffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+
+.joc-card h3 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.joc-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Buton link */
+.joc-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.joc-btn:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+.joc-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #ccc;
+  border-top: 1px solid #444;
+  margin-top: auto;
+}
